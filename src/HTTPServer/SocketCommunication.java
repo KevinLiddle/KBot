@@ -8,9 +8,8 @@ import Handlers.Handler;
 import java.io.*;
 import java.net.Socket;
 
-public class SocketCommunication implements ConnectionServer {
+public class SocketCommunication extends ConnectionServer {
 
-  public Logger logger;
   public final String OK = "200 OK";
   public final String NOT_FOUND = "404 Not Found";
   public final String ERROR = "500 Internal Server Error";

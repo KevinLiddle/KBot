@@ -1,5 +1,7 @@
 package Tests.Handlers;
 
+import Handlers.FileFinder;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -22,7 +24,7 @@ public class HandlerTestHelpers {
   }
 
   public static boolean mockExecute(String request) throws Exception {
-    BufferedReader br = new BufferedReader(new FileReader(new File("src/config/routes.txt")));
+    BufferedReader br = new BufferedReader(new FileReader(new File(FileFinder.findFromSrcDir("routes.txt"))));
     String line = br.readLine();
     while(line != null){
       String[] route = line.split("\\s*->\\s*");

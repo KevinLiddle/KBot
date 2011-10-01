@@ -24,7 +24,7 @@ public class Server implements Runnable {
   }
 
   public Server(int _port, ConnectionServer connectionServer) {
-    this(_port, connectionServer, new SOLogger());
+    this(_port, connectionServer, connectionServer.logger);
   }
 
   public Server(int _port, ConnectionServer connectionServer, Logger _logger) {
@@ -40,7 +40,7 @@ public class Server implements Runnable {
 
   public void start() {
     new Thread(this).start();
-    logger.log("Server started on port " + serverSocket.getLocalPort() + "\n");
+    this.logger.log("Server started on port " + serverSocket.getLocalPort() + "\n");
   }
 
   public void run() {
@@ -54,7 +54,7 @@ public class Server implements Runnable {
         for(StackTraceElement ste : e.getStackTrace()) {
           stackTrace += ste.toString() + "\n";
         }
-        logger.log("ERROR!! Could not connect to server.\n" + stackTrace);
+        this.logger.log("ERROR!! Could not connect to server.\n" + stackTrace);
       }
     }
   }
@@ -71,7 +71,7 @@ public class Server implements Runnable {
 
   private void serveConnection(Socket clientSocket) {
     Thread thread = startThread(clientSocket);
-    logger.log(threads.size() + ": Client connected to server\n");
+    this.logger.log(threads.size() + ": Client connected to server\n");
     killThread(thread);
   }
 

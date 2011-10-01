@@ -4,15 +4,11 @@ import java.io.BufferedReader;
 
 public class GUIHandler extends Handler{
 
-  public BufferedReader stylesheets(String request) {
-    return renderFile("stylesheets/" + request);
+  public BufferedReader guiRequests(String request) {
+    return implicitRequests(request);
   }
 
-  public BufferedReader javascripts(String request) {
-    return renderFile("javascripts/" + request);
-  }
-
-  public BufferedReader images(String request) {
-    return renderFile("images/" + request);
+  private BufferedReader implicitRequests(String request) {
+    return renderFile(request.replace("/", ""));
   }
 }

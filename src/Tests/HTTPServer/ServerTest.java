@@ -103,7 +103,7 @@ public class ServerTest {
   }
 
 
-  private class TestServer implements ConnectionServer {
+  private class TestServer extends ConnectionServer {
 
     private String lastMessage;
 

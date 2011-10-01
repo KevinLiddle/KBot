@@ -1,10 +1,15 @@
 package HTTPServer;
 
+import HTTPServer.Logger.Logger;
+
 import java.io.IOException;
 import java.net.Socket;
 
-public interface ConnectionServer {
-  void serve(Socket connection) throws IOException;
+public abstract class ConnectionServer {
 
-  void close(Socket clientSocket) throws IOException;
+  public Logger logger;
+
+  public abstract void serve(Socket connection) throws IOException;
+
+  public abstract void close(Socket clientSocket) throws IOException;
 }

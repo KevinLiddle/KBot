@@ -54,7 +54,7 @@ public class Handler {
     return renderDefaultHTMLFiles("/views/404NotFound.html");
   }
 
-  protected BufferedReader renderHTMLString(String output) {
+  public BufferedReader renderHTMLString(String output) {
     return new BufferedReader(new StringReader(output));
   }
 
@@ -79,7 +79,7 @@ public class Handler {
     return new BufferedReader(isr);
   }
 
-  protected ArrayList<Integer> getIDs(String request) {
+  public ArrayList<Integer> getIDs(String request) {
     ArrayList<Integer> IDs = new ArrayList<Integer>();
     Pattern ints = Pattern.compile("\\d+");
     Matcher match = ints.matcher(request);
@@ -103,6 +103,7 @@ public class Handler {
       logger.log("ERROR!! Method: \"" + route[1] + "\" not found.");
     } catch(InvocationTargetException ite) {
       logger.log("ERROR!! The method \"" + route[1] + "\" has thrown an exception");
+      ite.printStackTrace();
     } catch(IllegalAccessException iae) {
       logger.log("ERROR!! You cannot access the method \"" + route[1] + "\" from here.");
     } catch(InstantiationException ie) {
