@@ -28,7 +28,7 @@ public class LoggerTest {
 
   @Test
   public void logCreatesALogFileWithTotalLogSinceServerStarted() {
-    String message = "See you space cowboy...";
+    String message = "Well, hello there.";
     logger.log(message);
     try {
       File logFile = new File(FileFinder.findFromSrcDir("testLog.txt"));
@@ -41,13 +41,13 @@ public class LoggerTest {
 
   @Test
   public void logAppendsToCurrentLogIfThereIsOne() {
-    logger.log("See you space cowboy...");
-    String message = "You gotta carry that weight...";
+    logger.log("Well, hello there.");
+    String message = "Goodbye, sir.";
     logger.log(message);
     try {
       File logFile = new File(FileFinder.findFromSrcDir("testLog.txt"));
       BufferedReader br = new BufferedReader(new FileReader(logFile));
-      assertEquals("See you space cowboy...", br.readLine());
+      assertEquals("Well, hello there.", br.readLine());
       assertEquals(message, br.readLine());
     } catch(Exception e) {
       System.out.println("where da logz at?!?!?");

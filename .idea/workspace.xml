@@ -59,28 +59,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LoggerTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Tests/HTTPServer/LoggerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="39" selection-start="1036" selection-end="1036" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Server.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Server.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HTTPServer/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="57" selection-start="753" selection-end="753" vertical-scroll-proportion="0.31217483">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConnectionServer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HTTPServer/ConnectionServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="23" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0">
+            <state line="39" column="0" selection-start="1102" selection-end="1102" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -99,6 +81,15 @@
         <entry file="file://$PROJECT_DIR$/src/HTTPServer/Logger/FileLogger.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="4" column="42" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoggerTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Tests/HTTPServer/LoggerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="5" selection-start="925" selection-end="925" vertical-scroll-proportion="0.4526535">
               <folding />
             </state>
           </provider>
@@ -128,12 +119,12 @@
         <option value="$PROJECT_DIR$/src/Handlers/Handler.java" />
         <option value="$PROJECT_DIR$/src/views/404NotFound.html" />
         <option value="$PROJECT_DIR$/src/views/error.html" />
-        <option value="$PROJECT_DIR$/src/Tests/HTTPServer/LoggerTest.java" />
         <option value="$PROJECT_DIR$/src/HTTPServer/Logger/FileLogger.java" />
         <option value="$PROJECT_DIR$/src/HTTPServer/Server.java" />
         <option value="$PROJECT_DIR$/src/HTTPServer/ConnectionServer.java" />
         <option value="$PROJECT_DIR$/src/HTTPServer/SocketCommunication.java" />
         <option value="$PROJECT_DIR$/src/Tests/HTTPServer/ServerTest.java" />
+        <option value="$PROJECT_DIR$/src/Tests/HTTPServer/LoggerTest.java" />
       </list>
     </option>
   </component>
@@ -167,7 +158,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Favorites" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -308,8 +300,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -325,9 +316,9 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -539,12 +530,12 @@
       <method />
     </configuration>
     <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="Application.Server" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.All Tests" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.HandlerLoggerTest.unknownMethodLogsError" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.FileFinderTest.findReturnsThePathToTheGivenFile" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.FileFinderTest" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.LoggerTest.logAppendsToCurrentLogIfThereIsOne" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.HandlerLoggerTest.unknownMethodLogsError" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.FileFinderTest.findReturnsThePathToTheGivenFile" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.FileFinderTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.LoggerTest.logAppendsToCurrentLogIfThereIsOne" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Server" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.All Tests" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -564,21 +555,21 @@
     <frame x="0" y="22" width="1920" height="1108" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929292" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929292" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929292" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1474359" sideWeight="0.67070705" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14903846" sideWeight="0.67070705" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929292" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929292" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -657,9 +648,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HTTPServer/Logger/Logger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="17" selection-start="45" selection-end="45" vertical-scroll-proportion="0.031217482">
-          <folding />
-        </state>
+        <state line="2" column="17" selection-start="45" selection-end="45" vertical-scroll-proportion="0.031217482" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tests/Handlers/HandlerTestHelpers.java">
@@ -669,63 +658,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Handlers/FileFinder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="497" selection-end="497" vertical-scroll-proportion="0.35433072">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HTTPServer/Logger/FileLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="42" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="17" column="0" selection-start="497" selection-end="497" vertical-scroll-proportion="0.35433072" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HTTPServer/Logger/MemLogger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="12" selection-start="199" selection-end="199" vertical-scroll-proportion="0.17169616">
-          <folding />
-        </state>
+        <state line="11" column="12" selection-start="199" selection-end="199" vertical-scroll-proportion="0.17169616" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HTTPServer/Logger/SOLogger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="41" selection-end="41" vertical-scroll-proportion="0.031217482">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tests/HTTPServer/LoggerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="39" selection-start="1036" selection-end="1036" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="2" column="13" selection-start="41" selection-end="41" vertical-scroll-proportion="0.031217482" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tests/HTTPServer/ServerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="34" selection-start="2751" selection-end="2751" vertical-scroll-proportion="1.451613">
-          <folding />
-        </state>
+        <state line="105" column="34" selection-start="2751" selection-end="2751" vertical-scroll-proportion="1.451613" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HTTPServer/ConnectionServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="23" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HTTPServer/SocketCommunication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0">
+        <state line="9" column="23" selection-start="173" selection-end="173" vertical-scroll-proportion="0.09365244">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HTTPServer/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="57" selection-start="753" selection-end="753" vertical-scroll-proportion="0.31217483">
+        <state line="39" column="0" selection-start="1102" selection-end="1102" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HTTPServer/SocketCommunication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HTTPServer/Logger/FileLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="42" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests/HTTPServer/LoggerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="5" selection-start="925" selection-end="925" vertical-scroll-proportion="0.4526535">
           <folding />
         </state>
       </provider>
